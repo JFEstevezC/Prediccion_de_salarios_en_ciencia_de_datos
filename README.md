@@ -21,4 +21,4 @@ Dataset con aproximadamente 14,838 registros y 11 variables, que contienen infor
 
 ## **Enlaces**
 - [Google Colab](https://colab.research.google.com/drive/1UajKQo5mmP1FUNYlo5DARm6tceWA2GHp?usp=sharing)
-- [Repositorio](https://github.com/NDruz/Clasificacion-de-resudios)
+- [Repositorio](https://github.com/JFEstevezC/Prediccion_de_salarios_en_ciencia_de_datos)
