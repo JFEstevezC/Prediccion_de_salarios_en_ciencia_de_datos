@@ -1,6 +1,6 @@
 # PREDICCIÓN DEL SALARIO EN CIENCIA DE DATOS 
 
-![Banner del Proyecto]() 
+![Banner del Proyecto](/Portada.jpeg) 
 
 ## Autores
 
