@@ -172,7 +172,7 @@ Dataset (Kaggle)
 ---
 
 ## 🎥 Video
-Video resumen del proyecto (máx. 5 minutos):
+Video resumen del proyecto:
 
 🔗 **[Enlace al video](#)**
 
