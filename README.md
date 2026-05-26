@@ -1,8 +1,8 @@
-# 📘 IA1 - Predicción y Análisis de Salarios en Ciencia de Datos
+#  IA1 - Predicción y Análisis de Salarios en Ciencia de Datos
 
 ![Portada](Portada.jpeg)
 
-**Curso:** *Inteligencia Artificial I — 2025-1*  
+**Curso:** *Inteligencia Artificial I — 2026-1*  
 **👥 Equipo:**  
 - Jairo Armando Cardozo Mendoza — *2224637*  
 - Jose Fernando Estévez Cárdenas — *2224646*  
@@ -41,7 +41,7 @@
 
 ---
 
-## ❓ Preguntas a responder
+## Preguntas a responder
 
 ### Antes del EDA (conceptual)
 
@@ -64,20 +64,20 @@
 
 ### Después del EDA (resumen)
 
-📌 **Datos utilizados (máx. 50 palabras):**  
+**Datos utilizados (máx. 50 palabras):**  
 > Dataset con información de empleos en ciencia de datos entre 2020 y 2024, que incluye nivel de experiencia, tipo de contrato, cargo, ubicación del empleado y la empresa, modalidad de trabajo remoto, y salario en USD. Adecuado para regresión y análisis no supervisado.
 
-📌 **Información contenida (máx. 100 palabras):**  
+**Información contenida (máx. 100 palabras):**  
 > Contiene 11 variables numéricas y categóricas: año del salario (`work_year`), nivel de experiencia (`experience_level`: EN/MI/SE/EX), tipo de empleo (`employment_type`: FT/PT/CT/FL), cargo (`job_title`), salario original, moneda, salario en USD (`salary_in_usd`), residencia del empleado, porcentaje remoto (0/50/100), ubicación de la empresa y tamaño de la empresa (S/M/L). La variable objetivo es `salary_in_usd`. Permite análisis predictivo y exploratorio del mercado laboral en ciencia de datos.
 
-📌 **Desafíos asociados a los datos (máx. 100 palabras):**  
+**Desafíos asociados a los datos (máx. 100 palabras):**  
 > La variable `salary_in_usd` presenta alto sesgo positivo con outliers significativos. Las variables categóricas como `job_title` tienen alta cardinalidad. La clase dominante en `employment_type` es FT (Full-Time), lo que genera desbalance. La mayoría de registros provienen de empresas medianas con trabajadores senior, lo que puede sesgar los modelos. Para clustering, la baja separación entre grupos de `employment_type` en el espacio PCA implica un ARI bajo esperado, según lo anticipado en clase.
 
 ---
 
-## 🧠 Hipótesis inicial y modelos planeados
+## Hipótesis inicial y modelos planeados
 
-### ✔ Hipótesis inicial
+### Hipótesis inicial
 > Antes del análisis, el equipo asumía que:  
 > - **Nivel de experiencia** (`experience_level`),  
 > - **Cargo** (`job_title`),  
@@ -87,15 +87,15 @@
 
 También se esperaba que **Random Forest** tuviera el mejor desempeño por su capacidad para manejar variables categóricas con alta cardinalidad.
 
-### ✔ Modelos planeados
+### Modelos planeados
 - **Regresión:** Decision Tree Regressor, Random Forest Regressor, SVR, Deep Learning (MLP)  
 - **No supervisado:** K-Means, DBSCAN  
 - **Dimensionalidad:** PCA  
 
 ---
 
-## 🛠️ Tecnologías a utilizar
-- **Lenguaje:** Python 🐍  
+## Tecnologías a utilizar
+- **Lenguaje:** Python   
 - **Librerías:**  
   - Pandas  
   - NumPy  
@@ -108,7 +108,7 @@ También se esperaba que **Random Forest** tuviera el mejor desempeño por su ca
 
 ---
 
-## 📦 Resumen de modelos utilizados
+## Resumen de modelos utilizados
 
 | Tipo                 | Modelos usados                                                               |
 |----------------------|------------------------------------------------------------------------------|
@@ -118,7 +118,7 @@ También se esperaba que **Random Forest** tuviera el mejor desempeño por su ca
 
 ---
 
-### 🔍 Detalle de los modelos de regresión
+### Detalle de los modelos de regresión
 
 | Modelo       | Descripción                                          | Métrica principal |
 |--------------|------------------------------------------------------|-------------------|
@@ -129,7 +129,7 @@ También se esperaba que **Random Forest** tuviera el mejor desempeño por su ca
 | **DL Arch2** | MLP: input → [64, 64, 128, 128, 256, 256] → 1       | MAE (USD)         |
 | **DL Arch3** | MLP: input → [128, 128, 128] → 1                    | MAE (USD)         |
 
-### 🔍 Detalle del clustering
+### Detalle del clustering
 
 | Método      | Parámetros clave              | Evaluación                     |
 |-------------|-------------------------------|-------------------------------|
@@ -141,7 +141,7 @@ También se esperaba que **Random Forest** tuviera el mejor desempeño por su ca
 
 ---
 
-## 🚀 Flujo del proyecto
+## Flujo del proyecto
 
 ```
 Dataset (Kaggle)
@@ -171,7 +171,7 @@ Dataset (Kaggle)
 
 ---
 
-## 🎥 Video
+## Video
 Video resumen del proyecto:
 
 🔗 **[Enlace al video](#)**
