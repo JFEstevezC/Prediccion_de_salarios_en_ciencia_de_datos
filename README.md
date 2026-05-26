@@ -20,5 +20,5 @@ Dataset con aproximadamente 14,838 registros y 11 variables, que contienen infor
 
 
 ## **Enlaces**
-- [Google Colab](https://colab.research.google.com/drive/1W8yM3FXRQ3I3YZMyt5dHWX7zo9VQYMy9)
+- [Google Colab](https://drive.google.com/file/d/1_8c6R9e31gYUGCfC9TXeRSF0m8Zg0um-/view?usp=sharing)
 - [Repositorio](https://github.com/JFEstevezC/Prediccion_de_salarios_en_ciencia_de_datos)
