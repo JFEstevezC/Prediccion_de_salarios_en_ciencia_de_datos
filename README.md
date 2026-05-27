@@ -1,6 +1,6 @@
 #  IA1 - Predicción y Análisis de Salarios en Ciencia de Datos
 
-![Portada](Portada.jpeg)
+![Portada]()
 
 **Curso:** *Inteligencia Artificial I — 2026-1*  
 **👥 Equipo:**  
