@@ -174,6 +174,6 @@ Dataset (Kaggle)
 ## Video
 Video resumen del proyecto:
 
-🔗 **[Enlace al video](#)**
+🔗 **[Enlace al video](https://youtu.be/YynHbviHZvU)**
 
 ---
